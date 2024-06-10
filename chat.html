@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - Amyszed</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        #chat-box {
+            width: 80%;
+            margin: auto;
+            background-color: #282a36;
+            border-radius: 10px;
+            padding: 20px;
+            color: #fff;
+        }
+        #messages {
+            height: 300px;
+            overflow-y: scroll;
+            border: 1px solid #444;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        #message-input {
+            width: calc(100% - 22px);
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Amyszed</h1>
+        <nav>
+            <ul id="nav-bar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="inspiration.html">My Inspiration</a></li>
+                <li><a href="updates.html">Updates</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="chat.html">Chat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="chat-box">
+        <h2>Chat with Amyszed</h2>
+        <div id="messages"></div>
+        <input type="text" id="message-input" placeholder="Type your message here..." />
+        <button id="send-button">Send</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Amyszed. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
